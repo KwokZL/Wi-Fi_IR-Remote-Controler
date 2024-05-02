@@ -1,0 +1,421 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BA501A542C01ED0A007AACD9 /* InfoPlist.xcstrings in Resources */ = {isa = PBXBuildFile; fileRef = BA501A532C01ED0A007AACD9 /* InfoPlist.xcstrings */; };
+		BA76B8102C1D7241000B8B50 /* Model.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = BA76B80E2C1D7241000B8B50 /* Model.xcdatamodeld */; };
+		BA8C549F2BF84DBF00EDE9E3 /* macOSMain.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA8C549E2BF84DBF00EDE9E3 /* macOSMain.swift */; };
+		BAB4FFC02BEFC2C500E5BE91 /* IR_ConnectApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAB4FFBF2BEFC2C500E5BE91 /* IR_ConnectApp.swift */; };
+		BAB4FFC22BEFC2C500E5BE91 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAB4FFC12BEFC2C500E5BE91 /* ContentView.swift */; };
+		BAB4FFC42BEFC2CC00E5BE91 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BAB4FFC32BEFC2CC00E5BE91 /* Assets.xcassets */; };
+		BAB4FFC82BEFC2CC00E5BE91 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BAB4FFC72BEFC2CC00E5BE91 /* Preview Assets.xcassets */; };
+		BAFD58292BF060BE008CE8B1 /* Find.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAFD58282BF060BE008CE8B1 /* Find.swift */; };
+		BAFD582B2BF0621A008CE8B1 /* ReciveView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAFD582A2BF0621A008CE8B1 /* ReciveView.swift */; };
+		BAFD582D2BF06C16008CE8B1 /* IRSend.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAFD582C2BF06C16008CE8B1 /* IRSend.swift */; };
+		BAFD582F2BF074AE008CE8B1 /* IRContol.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAFD582E2BF074AE008CE8B1 /* IRContol.swift */; };
+		BAFD58312BF08439008CE8B1 /* IRRemote.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAFD58302BF08439008CE8B1 /* IRRemote.swift */; };
+		BAFD58332BF08A7E008CE8B1 /* Localizable.xcstrings in Resources */ = {isa = PBXBuildFile; fileRef = BAFD58322BF08A7E008CE8B1 /* Localizable.xcstrings */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		BA501A532C01ED0A007AACD9 /* InfoPlist.xcstrings */ = {isa = PBXFileReference; lastKnownFileType = text.json.xcstrings; path = InfoPlist.xcstrings; sourceTree = "<group>"; };
+		BA76B80F2C1D7241000B8B50 /* Model.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Model.xcdatamodel; sourceTree = "<group>"; };
+		BA8C549E2BF84DBF00EDE9E3 /* macOSMain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = macOSMain.swift; sourceTree = "<group>"; };
+		BAB4FFBC2BEFC2C500E5BE91 /* IR Connect.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "IR Connect.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BAB4FFBF2BEFC2C500E5BE91 /* IR_ConnectApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IR_ConnectApp.swift; sourceTree = "<group>"; };
+		BAB4FFC12BEFC2C500E5BE91 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		BAB4FFC32BEFC2CC00E5BE91 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BAB4FFC52BEFC2CC00E5BE91 /* IR_Connect.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = IR_Connect.entitlements; sourceTree = "<group>"; };
+		BAB4FFC72BEFC2CC00E5BE91 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		BAFD58282BF060BE008CE8B1 /* Find.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Find.swift; sourceTree = "<group>"; };
+		BAFD582A2BF0621A008CE8B1 /* ReciveView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReciveView.swift; sourceTree = "<group>"; };
+		BAFD582C2BF06C16008CE8B1 /* IRSend.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IRSend.swift; sourceTree = "<group>"; };
+		BAFD582E2BF074AE008CE8B1 /* IRContol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IRContol.swift; sourceTree = "<group>"; };
+		BAFD58302BF08439008CE8B1 /* IRRemote.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IRRemote.swift; sourceTree = "<group>"; };
+		BAFD58322BF08A7E008CE8B1 /* Localizable.xcstrings */ = {isa = PBXFileReference; lastKnownFileType = text.json.xcstrings; path = Localizable.xcstrings; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BAB4FFB92BEFC2C500E5BE91 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BAB4FFB32BEFC2C500E5BE91 = {
+			isa = PBXGroup;
+			children = (
+				BAB4FFBE2BEFC2C500E5BE91 /* IR Connect */,
+				BAB4FFBD2BEFC2C500E5BE91 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BAB4FFBD2BEFC2C500E5BE91 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BAB4FFBC2BEFC2C500E5BE91 /* IR Connect.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BAB4FFBE2BEFC2C500E5BE91 /* IR Connect */ = {
+			isa = PBXGroup;
+			children = (
+				BA501A532C01ED0A007AACD9 /* InfoPlist.xcstrings */,
+				BAFD58322BF08A7E008CE8B1 /* Localizable.xcstrings */,
+				BAB4FFBF2BEFC2C500E5BE91 /* IR_ConnectApp.swift */,
+				BAB4FFC12BEFC2C500E5BE91 /* ContentView.swift */,
+				BA8C549E2BF84DBF00EDE9E3 /* macOSMain.swift */,
+				BA76B80E2C1D7241000B8B50 /* Model.xcdatamodeld */,
+				BAFD582C2BF06C16008CE8B1 /* IRSend.swift */,
+				BAFD582E2BF074AE008CE8B1 /* IRContol.swift */,
+				BAFD58302BF08439008CE8B1 /* IRRemote.swift */,
+				BAFD582A2BF0621A008CE8B1 /* ReciveView.swift */,
+				BAFD58282BF060BE008CE8B1 /* Find.swift */,
+				BAB4FFC32BEFC2CC00E5BE91 /* Assets.xcassets */,
+				BAB4FFC52BEFC2CC00E5BE91 /* IR_Connect.entitlements */,
+				BAB4FFC62BEFC2CC00E5BE91 /* Preview Content */,
+			);
+			path = "IR Connect";
+			sourceTree = "<group>";
+		};
+		BAB4FFC62BEFC2CC00E5BE91 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				BAB4FFC72BEFC2CC00E5BE91 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BAB4FFBB2BEFC2C500E5BE91 /* IR Connect */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BAB4FFCB2BEFC2CC00E5BE91 /* Build configuration list for PBXNativeTarget "IR Connect" */;
+			buildPhases = (
+				BAB4FFB82BEFC2C500E5BE91 /* Sources */,
+				BAB4FFB92BEFC2C500E5BE91 /* Frameworks */,
+				BAB4FFBA2BEFC2C500E5BE91 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "IR Connect";
+			productName = "IR Connect";
+			productReference = BAB4FFBC2BEFC2C500E5BE91 /* IR Connect.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BAB4FFB42BEFC2C500E5BE91 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					BAB4FFBB2BEFC2C500E5BE91 = {
+						CreatedOnToolsVersion = 15.2;
+					};
+				};
+			};
+			buildConfigurationList = BAB4FFB72BEFC2C500E5BE91 /* Build configuration list for PBXProject "IR Connect" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				"zh-Hans",
+			);
+			mainGroup = BAB4FFB32BEFC2C500E5BE91;
+			productRefGroup = BAB4FFBD2BEFC2C500E5BE91 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BAB4FFBB2BEFC2C500E5BE91 /* IR Connect */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BAB4FFBA2BEFC2C500E5BE91 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BAB4FFC82BEFC2CC00E5BE91 /* Preview Assets.xcassets in Resources */,
+				BAB4FFC42BEFC2CC00E5BE91 /* Assets.xcassets in Resources */,
+				BA501A542C01ED0A007AACD9 /* InfoPlist.xcstrings in Resources */,
+				BAFD58332BF08A7E008CE8B1 /* Localizable.xcstrings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BAB4FFB82BEFC2C500E5BE91 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BAFD582B2BF0621A008CE8B1 /* ReciveView.swift in Sources */,
+				BAFD582F2BF074AE008CE8B1 /* IRContol.swift in Sources */,
+				BA8C549F2BF84DBF00EDE9E3 /* macOSMain.swift in Sources */,
+				BAFD58312BF08439008CE8B1 /* IRRemote.swift in Sources */,
+				BAFD582D2BF06C16008CE8B1 /* IRSend.swift in Sources */,
+				BA76B8102C1D7241000B8B50 /* Model.xcdatamodeld in Sources */,
+				BAB4FFC22BEFC2C500E5BE91 /* ContentView.swift in Sources */,
+				BAFD58292BF060BE008CE8B1 /* Find.swift in Sources */,
+				BAB4FFC02BEFC2C500E5BE91 /* IR_ConnectApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		BAB4FFC92BEFC2CC00E5BE91 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BAB4FFCA2BEFC2CC00E5BE91 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		BAB4FFCC2BEFC2CC00E5BE91 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "IR Connect/IR_Connect.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"IR Connect/Preview Content\"";
+				DEVELOPMENT_TEAM = "";
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "IR Connect";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.developer-tools";
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.IR-Connect";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BAB4FFCD2BEFC2CC00E5BE91 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "IR Connect/IR_Connect.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"IR Connect/Preview Content\"";
+				DEVELOPMENT_TEAM = "";
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "IR Connect";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.developer-tools";
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.IR-Connect";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BAB4FFB72BEFC2C500E5BE91 /* Build configuration list for PBXProject "IR Connect" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BAB4FFC92BEFC2CC00E5BE91 /* Debug */,
+				BAB4FFCA2BEFC2CC00E5BE91 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BAB4FFCB2BEFC2CC00E5BE91 /* Build configuration list for PBXNativeTarget "IR Connect" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BAB4FFCC2BEFC2CC00E5BE91 /* Debug */,
+				BAB4FFCD2BEFC2CC00E5BE91 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		BA76B80E2C1D7241000B8B50 /* Model.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				BA76B80F2C1D7241000B8B50 /* Model.xcdatamodel */,
+			);
+			currentVersion = BA76B80F2C1D7241000B8B50 /* Model.xcdatamodel */;
+			name = Model.xcdatamodeld;
+			path = "/Users/guozonglin/Desktop/工程文件/Wi-Fi Remote Control/IR Connect/IR Connect/Model.xcdatamodeld";
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = BAB4FFB42BEFC2C500E5BE91 /* Project object */;
+}
