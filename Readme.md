@@ -13,6 +13,8 @@ This project is designed to integrate legacy devices into the Internet of Things
 
 > Additionally, this project also functions as an infrared development device. It can receive infrared signals for debugging purposes.
 
+> Feel free to submit Issues and PRs to improve the project together.
+
 ![img1](./imgs/img1.jpeg)
 
 ### Technologies/Hardware Used
